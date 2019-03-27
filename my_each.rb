@@ -2,7 +2,7 @@ an_array = []
 
 def my_each(array)
   if array.length == 0
-    puts "Empty"
+    "Empty"
   else
   i = 0
   while (i < 4)
