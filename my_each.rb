@@ -1,4 +1,4 @@
-an_array = [1, 2, 3, 4]
+an_array = []
 
 def my_each(array)
   i = 0
