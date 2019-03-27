@@ -13,5 +13,5 @@ end
 
 array = [1, 2, 3, 4]
 
-my_each(array) { |number| puts number }
+my_each(array) { |number| return number }
 
