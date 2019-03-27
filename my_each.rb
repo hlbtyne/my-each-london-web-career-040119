@@ -4,6 +4,7 @@ def my_each(array)
   i = 0
   while (i <= 4) 
     puts array[i]
+    i += 1 
     # yield(item)
   end
 end
