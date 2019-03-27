@@ -1,5 +1,3 @@
-an_array = []
-
 def my_each(array)
   if array.length == 0
     "Empty"
@@ -13,5 +11,5 @@ def my_each(array)
   end
 end
 
-my_each(an_array) { |number| number }
+my_each(array) { |number| number }
 
