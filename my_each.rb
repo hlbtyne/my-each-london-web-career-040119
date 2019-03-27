@@ -5,7 +5,7 @@ def my_each(array)
     "Empty"
   else
   i = 0
-  while (i < 4)
+  while (i < array.length)
     number = array[i]
     yield(number)
     i += 1 
