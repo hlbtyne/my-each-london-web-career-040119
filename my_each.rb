@@ -3,8 +3,7 @@ an_array = []
 def my_each(array)
   if array.length == 0
     puts "Empty"
-    break
-  end
+  else
   i = 0
   while (i < 4)
     number = array[i]
