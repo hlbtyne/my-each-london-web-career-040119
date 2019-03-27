@@ -1,7 +1,5 @@
 an_array = [1, 2, 3, 4]
 
-number = 0
-
 def my_each(array)
   i = 0
   while (i <= 4)
@@ -11,7 +9,7 @@ def my_each(array)
   end
 end
 
-my_each(an_array) { puts number }
+my_each(an_array) { |number| puts number }
 
 
 
