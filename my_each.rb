@@ -3,11 +3,12 @@ def my_each(array)
     "Empty"
   else
   i = 0
-  while (i < array.length)
+    while (i < array.length)
     number = array[i]
     yield(number)
     i += 1 
     end
+    array
   end
 end
 
