@@ -9,6 +9,7 @@ def my_each(array)
     number = array[i]
     yield(number)
     i += 1 
+    end
   end
 end
 
