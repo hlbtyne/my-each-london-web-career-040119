@@ -18,3 +18,5 @@ def yielding_with_arguments(num)
   yield(num)
   puts "now we are back in the method"
 end
+
+yielding_with_arguments(2) {|i| puts i * 2}
