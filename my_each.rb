@@ -1,5 +1,7 @@
 an_array = [1, 2, 3, 4]
 
+number = 0
+
 def my_each(array)
   i = 0
   while (i <= 4)
