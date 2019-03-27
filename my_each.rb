@@ -11,5 +11,5 @@ def my_each(array)
   end
 end
 
-my_each(foobar) { |number| number }
+my_each(array) { |number| number }
 
