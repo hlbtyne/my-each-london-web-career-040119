@@ -9,7 +9,7 @@ def my_each(array)
   end
 end
 
-puts number
+my_each { puts number }
 
 
 
