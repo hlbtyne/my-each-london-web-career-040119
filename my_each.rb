@@ -9,7 +9,7 @@ def my_each(array)
   end
 end
 
-my_each(an_array) { |number| puts number }
+my_each(an_array) { |number| number }
 
 
 
